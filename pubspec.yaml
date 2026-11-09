@@ -1,0 +1,26 @@
+name: nexus_chat_hub
+description: A production-grade customizable enterprise chat application with modular plugin architecture.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  drift: ^2.14.0
+  sqlite3_flutter_libs: ^0.5.20
+  flutter_secure_storage: ^9.0.0
+  web_socket_channel: ^2.4.0
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  drift_dev: ^2.14.0
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
